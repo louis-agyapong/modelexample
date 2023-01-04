@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     # Local apps
     "modelexample.simple",
     "modelexample.school",
+    "modelexample.musician",
     # External apps
     "django_extensions",
     "rest_framework",
@@ -60,7 +61,7 @@ CONTEXT_PROCESSORS: list[str] = [
     "django.contrib.messages.context_processors.messages",
 ]
 
-TEMPLATE_DIRS:list = [str(BASE_DIR / "templates")]
+TEMPLATE_DIRS: list = [str(BASE_DIR / "templates")]
 
 TEMPLATES = [
     {
